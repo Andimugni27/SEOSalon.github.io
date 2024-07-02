@@ -1,0 +1,172 @@
+/* tema.css */
+
+body {
+    background-color: rgb(213, 213, 246);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px; /* Tambahkan padding untuk mengimbangi header fixed */
+}
+
+.header {
+    background-color: rgb(71, 71, 209);
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid #00008b;
+    border-radius: 0 0 10px 10px;
+    position: fixed; /* Ubah ke fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Tambahkan z-index untuk memastikan header di atas konten lainnya */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 2em;
+    color: rgb(5, 5, 21);
+}
+
+.title h1 a {
+    color: rgb(5, 5, 21);
+    text-decoration: none;
+}
+
+.title h1 a:hover {
+    text-decoration: underline;
+}
+
+.title h2 {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    color: #d3d3d3;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin: 0 10px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.cta-button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
+
+.main {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.section {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    scroll-margin-top: 80px; /* Tambahkan scroll-margin-top untuk mengimbangi header fixed */
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: rgb(71, 71, 209);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-item h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 1em;
+}
+/*tampilan penilaian*/
+.review-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#reviewForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#reviewForm label {
+    margin: 10px 0 5px;
+}
+
+#reviewForm input,
+#reviewForm select,
+#reviewForm textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reviewForm button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reviewForm button:hover {
+    background-color: #ff6347;
+}
+

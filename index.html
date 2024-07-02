@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEA Salon</title>
+    <link rel="stylesheet" href="tema.css"> <!-- Hanya satu link CSS diperlukan -->
+    <script src="penilaian.js"></script> <!-- Referensi ke file JavaScript -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="title">
+                <h1><a href="#home">SEA SALON</a></h1><!-- ini nama toko salon -->
+                <h2>Beauty and Elegance Redefined</h2><!-- Ini slogan -->
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#lokasi">Lokasi</a></li>
+                </ul>
+                <button class="cta-button">Book Now</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <h2>Welcome to SEA Salon</h2>
+            <p>Where professionalism meets creativity. Our expert stylists are dedicated to staying ahead of the latest trends and techniques, providing you with top-tier services and stunning results every time. Experience the best in hair and beauty care with us.</p>
+        </section>
+        <section id="service" class="section">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Haircuts and Styling</h3>
+                <p>Transform your look with our expert haircuts and styling. Our talented stylists use the latest techniques to ensure you leave feeling confident and stylish.</p>
+            </div>
+            <div class="service-item">
+                <h3>Manicure and Pedicure</h3>
+                <p>Pamper your hands and feet with our luxurious manicure and pedicure services. Experience the ultimate in relaxation and leave with beautifully groomed nails.</p>
+            </div>
+            <div class="service-item">
+                <h3>Facial Treatments</h3>
+                <p>Revitalize your skin with our luxurious facial treatments. Our expert estheticians use premium products to cleanse, exfoliate, and rejuvenate your complexion, leaving you with a radiant glow.</p>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Thomas</h3>
+                    <p>Phone: 08123456789</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Sekar</h3>
+                    <p>Phone: 08164829372</p>
+                </div>
+            </div>
+        </section>
+        <section id="lokasi" class="section">
+            <h2>Our Location</h2>
+            <p>Jl. Kayu Manis No 3A RT 024 RW 005, Balekambang, Kec. Kramat jati, Kota Jakarta Barat, Daerah Khusus Ibukota, 13473</p>
+        </section>
+        <!-- Section for Reviews -->
+        <section id="reviews" class="section">
+            <h2>Reviews</h2>
+            <form id="reviewForm">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+            <div id="reviewsList"></div>
+        </section>
+    </main>
+</body>
+</html>
