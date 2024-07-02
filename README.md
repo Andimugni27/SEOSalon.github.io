@@ -5,7 +5,7 @@
 Hello TechOvers!
 
 I am Andi, and I am excited to present to you the SEA Salon website. This project is designed to provide comprehensive information about SEA Salon, ensuring our clients have the best experience possible. 
-[Click here to see the website]()
+[Click here to see the website](https://andimugni27.github.io/SEOSalon.github.io/)
 
 ## About the Website
 
